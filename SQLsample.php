@@ -1,4 +1,5 @@
-    function getAll($params)
+<?php 
+function getAll($params)
     {
         $output = [];
         $status = "!=";
@@ -40,3 +41,4 @@
         }
         return $output;
     }
+?>
